@@ -1,20 +1,21 @@
 import { useState } from "react";
 
 function Square() {
-  const [value, setValue] = useState(null);
 
-  function handleClick() {
-    setValue('x');
+  const [value, setvalue] = useState(null)
+  
+  function handleclick() {
+    setvalue('x')
+    }
+  return (
+    <button className="square" onClick={handleclick}>{value}</button>
+    )
   }
 
-  return (
-    <button className="square" onClick={handleClick}>
-      {value}
-    </button>
-  );
-}
+  
+  
+  export default function Board() {
 
-export default function Board() {
   return (
     <>
       <div className="board-row">

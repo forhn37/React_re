@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './styles.css';
 import reportWebVitals from './reportWebVitals';
-import Square from './component/test';
 import Board from './component/test';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

@@ -1,12 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+body {
+  background-color: beige;
+}
 
-/* code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-} */ */
-
-.Square {
-  width: 20px;
-  height: 20px;
+.square {
+  width: 50px;
+  height: 50px;
   text-align: center;
   
 }
